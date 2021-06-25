@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="2109px" height="803px" viewBox="0 0 2109 803" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="36.7711535%" y1="7.91262454%" x2="97.9402107%" y2="91.775655%" id="linearGradient-1">
+            <stop stop-color="#F3F6F7" offset="0%"></stop>
+            <stop stop-color="#D7D7FF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="-37.3127975%" y1="113.275971%" x2="62.5979125%" y2="39.2481357%" id="linearGradient-2">
+            <stop stop-color="#2D2BB0" offset="0%"></stop>
+            <stop stop-color="#113255" offset="100%"></stop>
+            <stop stop-color="#113255" offset="100%"></stop>
+        </linearGradient>
+        <path d="M527.982159,82.4360036 C589.512957,82.4360036 814.867646,77.4122947 900.260107,210.498626 C985.652569,343.584958 1191.5041,189.647933 1367.81199,344.780163 C1544.11989,499.912394 1493.54654,576.189148 1790.44501,613.360791 C1988.37733,638.141887 2092.82974,720.021623 2103.80225,859 L31.6795275,859 C69.7051172,584.795375 123.925984,392.603043 194.342129,282.423005 C299.966347,117.152948 466.451362,82.4360036 527.982159,82.4360036 Z" id="path-3"></path>
+        <filter x="-2.2%" y="-5.8%" width="104.3%" height="111.6%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="15" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.031372549   0 0 0 0 0.0980392157   0 0 0 0 0.168627451  0 0 0 0.386152627 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="final-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="home" transform="translate(0.000000, -4499.000000)">
+            <g id="footer" transform="translate(-23.000000, 4446.000000)">
+                <g id="Group-2">
+                    <path d="M454.092981,110.322557 C634.367592,81.3429627 757.247791,108.160304 822.733577,190.774581 C920.962256,314.695996 1069.35258,143.707485 1278.0339,292.691065 C1325.45578,326.546906 1391.12545,509.511802 1685.57617,548.421661 C1883.50848,574.577205 1979.63441,643.838846 1973.95395,756.206583 L62.6709031,957.090526 C24.9148968,683.961388 35.1678789,484.377418 93.4298494,358.338614 C151.69182,232.29981 271.912864,149.627791 454.092981,110.322557 Z" id="Path-11-Copy" fill="url(#linearGradient-1)" transform="translate(1007.296525, 528.062301) rotate(6.000000) translate(-1007.296525, -528.062301) "></path>
+                    <g id="Path-11">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                        <use fill="url(#linearGradient-2)" fill-rule="evenodd" xlink:href="#path-3"></use>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

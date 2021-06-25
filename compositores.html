@@ -2,12 +2,15 @@
 <html lang="en">
 
 <head>
+    <script src="https://kit.fontawesome.com/41bcea2ae3.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style2.css">
     <meta name="description" content="Aqui encontraras videos relacionados a Q3A." />
     <meta name="keywords" content="quake, movies, videos, gameplay, veteran, compilations" />
     <link rel="shortcut icon" href="icon.ico" />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <title>InstrumentoClásicos - Compositores</title>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Fondamento&family=Ubuntu:wght@300&display=swap');
@@ -28,7 +31,16 @@
     </nav>
     <div style="background-image: url('img/music-1024x576.png'); height: 50vh; background-size: cover; background-attachment: fixed;">
         <div style="display: flex; justify-content: left; margin-left: 30px;">
-            <h1 style="color: white; font-size: 7em; font-family: 'Julius Sans One', sans-serif;">Compositores</h1>
+            <h1 style="color: white; font-size: 7em; font-family: 'Julius Sans One', sans-serif; border-bottom: 3px solid white">Compositores</h1>
+        </div>
+    </div>
+    <div style="position: absolute; padding:5px; top: 11%; right: 5%;">
+        <input
+            style="width: 240px; height: 40px; padding: 0 20px; font-size: 18px; color: black; outline: none; border: 1px solid silver; border-radius: 30px;"
+            type="text" placeholder="Buscar Compositor" required>
+        <div>
+            <i class="material-icons"
+                style="position: absolute; top: 0; right: 0; background: black; width: 55px; height: 55px; line-height: 55px; text-align: center; color: white; font-size: 20px; border-radius: 50%; cursor: pointer;">search</i>
         </div>
     </div>
 </header>
@@ -114,8 +126,44 @@
             style="grid-row: span 2; background-size: cover; background-position: center; background: url('img/Rachmaninov.png') no-repeat; border-radius: 4px; display: flex; align-items: center; justify-content: center; border-radius: 4px;">
             <a style="text-decoration: none; color: white; font-size: 2em;" href="rachmaninov.html">Rachmaninov</a></div>
     </section>
-    <footer>
-        <p style="font-size: 1em; text-align: center; opacity: .7; margin: 10px 10px; font-family: 'Corbel', sans-serif;">Copyright ©2021 - InstrumentosClasicos. Todos los derechos reservados. Diseñado y Desarrollado por <a style="text-decoration: none; color: #c22e2e" href="https://github.com/MaccDen" target="_blank">MaccDen</a>.</p>
+    <footer style="font-family: 'Ubuntu', sans-serif;">
+        <div class="container__footer">
+            <div class="box__footer">
+                <div class="logo">
+                    <h1><img src="img/logo.png" alt="">InstrumentosClásicos</h1>
+                </div>
+                <div class="terms">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In velit fuga, numquam incidunt esse non
+                        voluptatem neque excepturi delectus ut corrupti reiciendis, quibusdam culpa officiis unde fugit.
+                        Aliquam, assumenda! Dolore.</p>
+                </div>
+            </div>
+            <div class="box__footer">
+                <h2>Soluciones</h2>
+                <a href="#">APP</a>
+                <a href="#">APP</a>
+                <a href="#">APP</a>
+                <a href="#">APP</a>
+            </div>
+            <div class="box__footer">
+                <h2>Compañia</h2>
+                <a href="#">Acerca de</a>
+                <a href="#">Trabajos</a>
+                <a href="#">Procesos</a>
+                <a href="#">Servicios</a>
+            </div>
+            <div class="box__footer">
+                <h2>Redes Sociales</h2>
+                <a href="#"><i class="fab fa-facebook-square"></i>Facebook</a>
+                <a href="#"><i class="fab fa-twitter-square"></i>Twitter</a>
+                <a href="#"><i class="fab fa-steam-square"></i>Steam</a>
+                <a href="#"><i class="fab fa-github-square"></i>Github</a>
+            </div>
+        </div>
+        <div class="box__copyright">
+            <hr>
+            <p>Todos los derechos reservados © 2021 <b>MaccDen</b></p>
+        </div>
     </footer>
 </body>
 
