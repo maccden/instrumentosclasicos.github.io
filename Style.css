@@ -21,11 +21,9 @@ ul {
 }
 
 li a:hover {
-    transition: .2s;
     color: #cfcfcf;
     text-decoration: none;
     background-color: #2285273f;
-    border-radius: 20px;
     padding: 12px 10px 12px;
 }
 
@@ -59,6 +57,7 @@ ul .select {
 }
 
 ul a {
+    border-radius: 20px;
     transition: .2s;
     color: #cfcfcf;
     text-decoration: none;
