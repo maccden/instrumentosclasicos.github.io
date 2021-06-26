@@ -1,11 +1,11 @@
 footer {
     width: 100%;
-    padding: 50px 0px;
+    padding: 10px 0px;
+    background-image: url(img/footer.svg);
     background-size: cover;
-    background-color: rgb(29, 29, 29);
-    -webkit-mask-image: url(/background-footer.svg);
+    /*-webkit-mask-image: url(/background-footer.svg);
     mask-image: url(/background-footer.svg);
-    mask-size: cover;
+    mask-size: cover;*/
 }
 
 .container__footer {
@@ -27,7 +27,7 @@ footer {
     width: 45px;
     position: relative;
     top: 10px;
-    right: 10px;;
+    right: 10px;
 }
 
 .box__footer .terms{
