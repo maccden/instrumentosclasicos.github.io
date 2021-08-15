@@ -2,140 +2,253 @@
 <html lang="en">
 
 <head>
-    <script src="https://kit.fontawesome.com/41bcea2ae3.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="grid.css">
-    <link rel="stylesheet" href="style.css">
-    <meta name="description" content="Aqui encontraras videos relacionados a Q3A." />
-    <meta name="keywords" content="quake, movies, videos, gameplay, veteran, compilations" />
-    <link rel="shortcut icon" href="icon.ico" />
+    <link rel="icon" href="img/icon.ico">
     <meta charset="UTF-8" />
+    <link rel="stylesheet" href="css/aos.css">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <title>InstrumentoClásicos - Instrumentos</title>
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Fondamento&family=Ubuntu:wght@300&display=swap');
-        @import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap');
-        @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
-    </style>
+    <link rel="stylesheet" href="css/estilo.css" />
+    <script src="/js/fontawesome.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+    <title>Instrumentos - InstrumentosClasicos</title>
 </head>
 
-<header>
-    <nav>
-        <ul>
-            <li class="lilogo"><img src="img/logo.png" alt="Logo" width="35">InstrumentosClásicos</li>
-            <li><a href="index.html">INICIO</a></li>
-            <li><a href="compositores.html">COMPOSITORES</a></li>
-            <li><a class="select" href="#">INSTRUMENTOS</a></li>
-            <li><a href="about.html">ABOUT</a></li>
-        </ul>
-    </nav>
-    <div class="backgroundimg" style="background-image: url('img/instrumentos.png');">
-        <div>
-            <h1>Instrumentos</h1>
+<body>
+    <script src="js/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script>
+        window.addEventListener("scroll", function () {
+            let header = document.querySelector(".navbar");
+            let windowPosition = window.scrollY > 0;
+            header.classList.toggle("scrolling-active", windowPosition);
+        });
+    </script>
+    <div class="container3">
+        <div class="navbar">
+            <img data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300" data-aos-offset="0"
+                src="img/logo.png" class="logo" />
+            <nav data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300" data-aos-offset="0">
+                <ul>
+                    <li><a href="/index.html">INICIO</a></li>
+                    <li><a href="/compositores.html">COMPOSITORES</a></li>
+                    <li class="select"><a href="#">INSTRUMENTOS</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div data-aos="fade-right" class="title2">
+                    <h1>Instrumentos Clásicos</h1>
+                    <h2>Historia, Biografías, Conocimiento.</h2>
+                </div>
+            </div>
+            <div class="col2">
+                <div data-aos="fade-down">
+                    <h5>Instrumentos</h5>
+                    <br />
+                    <p>
+                        El cuerpo humano, ha ido generando sonidos por medio
+                        de las vías aéreas superiores vocales y percusivos,
+                        fue, probablemente, el primer instrumento. Existen
+                        muchas divisiones alternativas y subdivisiones de
+                        instrumentos.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="svg1">
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 1 1200 130"
+                preserveAspectRatio="none">
+                <path d="M1200 120L0 16.48 0 0 1200 0 1200 120z" class="shape-fill"></path>
+            </svg>
         </div>
     </div>
-    <div class="searcher">
-        <input type="text" placeholder="Buscar Instrumento" required>
-        <div class="material-icons">
-            <i class="material-icons">search</i>
+    <div data-aos="fade-up" class="grid">
+        <div style="
+                    grid-column: span 2;
+                    background: url('img/beethoven.jpg') no-repeat;
+                ">
+            <a href="beethoven.html">Beethoven</a>
+        </div>
+        <div style="
+                    grid-row: span 2;
+                    background: url('img/brahms.jpg') no-repeat;
+                ">
+            <a href="brahms.html">Brahms</a>
+        </div>
+        <div style="
+                    grid-column: span 2;
+                    background: url('img/mozart.jpg') no-repeat;
+                ">
+            <a href="mozart.html">Mozart</a>
+        </div>
+        <div style="
+                    grid-row: span 2;
+                    background: url('img/monteverdi.png') no-repeat;
+                ">
+            <a href="monteverdi.html">Monteverdi</a>
+        </div>
+        <div style="
+                    grid-row: span 2;
+                    background: url('img/mendelshonn.png') no-repeat;
+                ">
+            <a href="mendelshonn.html">Mendelshonn</a>
+        </div>
+        <div style="
+                    grid-row: span 2;
+                    background: url('img/buxtehude.png') no-repeat;
+                ">
+            <a href="buxtehude.html">Buxtehude</a>
+        </div>
+        <div style="
+                    grid-column: span 2;
+                    background: url('img/camille.png') no-repeat;
+                ">
+            <a href="camille.html">Camille</a>
+        </div>
+        <div style="
+                    grid-row: span 2;
+                    background: url('img/christianbach.png') no-repeat;
+                ">
+            <a href="christianbach.html">Christian Bach</a>
+        </div>
+        <div style="
+                    grid-row: span 2;
+                    background: url('img/chopin.png') no-repeat;
+                ">
+            <a href="chopin.html">Chopin</a>
+        </div>
+        <div style="
+                    grid-column: span 2;
+                    background: url('img/debussy.png') no-repeat;
+                ">
+            <a href="debussy.html">Debussy</a>
+        </div>
+        <div style="
+                    grid-row: span 2;
+                    background: url('img/dvorak.png') no-repeat;
+                ">
+            <a href="dvorak.html">Dvorak</a>
+        </div>
+        <div style="
+                    background-size: cover;
+                    background: url('img/grieg.png') no-repeat;
+                ">
+            <a href="grieg.html">Grieg</a>
+        </div>
+        <div style="
+                    grid-column: span 2;
+                    background: url('img/handel.png') no-repeat;
+                ">
+            <a href="handel.html">Händel</a>
+        </div>
+        <div style="
+                    grid-row: span 2;
+                    background: url('img/bach.png') no-repeat;
+                ">
+            <a href="bach.html">Bach</a>
+        </div>
+        <div style="
+                    grid-row: span 2;
+                    background: url('img/haydn.png') no-repeat;
+                ">
+            <a href="haydn.html">Haydn</a>
+        </div>
+        <div style="
+                    grid-row: span 2;
+                    background: url('img/liszt.png') no-repeat;
+                ">
+            <a href="liszt.html">Liszt</a>
+        </div>
+        <div style="
+                    grid-row: span 2;
+                    background: url('img/wagner.png') no-repeat;
+                ">
+            <a href="wagner.html">Wagner</a>
+        </div>
+        <div style="
+                    grid-row: span 2;
+                    background: url('img/vivaldi.png') no-repeat;
+                ">
+            <a href="vivaldi.html">Vivaldi</a>
+        </div>
+        <div style="
+                    grid-row: span 2;
+                    background: url('img/verdi.png') no-repeat;
+                ">
+            <a href="verdi.html">Verdi</a>
+        </div>
+        <div style="
+                    grid-row: span 2;
+                    background: url('img/strauss.png') no-repeat;
+                ">
+            <a href="strauss.html">Strauss</a>
+        </div>
+        <div style="
+                    grid-column: span 2;
+                    background: url('img/schumann.png') no-repeat;
+                ">
+            <a href="schumann.html">Schumann</a>
+        </div>
+        <div style="
+                    grid-column: span 2;
+                    background: url('img/schubert.png') no-repeat;
+                ">
+            <a href="schubert.html">Schubert</a>
+        </div>
+        <div style="
+                    grid-column: span 2;
+                    background: url('img/satie.png') no-repeat;
+                ">
+            <a href="satie.html">Satie</a>
+        </div>
+        <div style="background: url('img/Rameau.png') no-repeat">
+            <a href="rameau.html">Rameau</a>
+        </div>
+        <div style="
+                    grid-column: span 2;
+                    background: url('img/purcell.png') no-repeat;
+                ">
+            <a href="purcell.html">Purcell</a>
+        </div>
+        <div style="
+                    grid-row: span 2;
+                    background: url('img/Rachmaninov.png') no-repeat;
+                ">
+            <a href="rachmaninov.html">Rachmaninov</a>
         </div>
     </div>
-</header>
-
-<body style="background-color:rgb(29, 26, 26);">
-    <section class="grid"
-        style=" display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); grid-auto-rows: minmax(200px, auto); gap: 20px; padding: 20px; grid-auto-flow: dense;">
-        <div style="grid-row: span 2; background: url('img/acordeon.jpg') no-repeat;">
-            <a href="acordeon.html">Acordeón</a></div>
-        <div style="grid-row: span 2; background: url('img/bagpipe.jpg') no-repeat;">
-            <a href="bagpipe.html">Gaita</a></div>
-        <div style="grid-row: span 2; background: url('img/balalaika.jpg') no-repeat;">
-            <a href="balalaika.html">Balalaika</a></div>
-        <div style="grid-column: span 2; background: url('img/banjo.jpg') no-repeat;">
-            <a href="banjo.html">Banjo</a></div>
-        <div style="grid-row: span 2; background: url('img/bassoon.jpg') no-repeat;">
-            <a href="bassoon.html">Fagot</a></div>
-        <div style="grid-row: span 2; background: url('img/drums.jpg') no-repeat;">
-            <a href="drums.html">Batería</a></div>
-        <div style="grid-column: span 2; background: url('img/electricguitar.jpg') no-repeat;">
-            <a href="electricguitar.html">Guitarra Eléctrica</a></div>
-        <div style="grid-column: span 2; background: url('img/flute.jpg') no-repeat;">
-            <a href="flute.html">Flauta</a></div>
-        <div style="grid-row: span 2; background: url('img/guitar.jpg') no-repeat;">
-            <a href="guitarra.html">Guitarra</a></div>
-        <div style="grid-row: span 2; background: url('img/harmonica.jpg') no-repeat;">
-            <a href="harmonica.html">Harmónica</a></div>
-        <div style="grid-row: span 2; background: url('img/harp.jpg') no-repeat;">
-            <a href="harpa.html">Arpa</a></div>
-        <div style="grid-row: span 2; background: url('img/harpsichord.jpg') no-repeat;">
-            <a href="harpsichord.html">Clavecín</a></div>
-        <div style="grid-column: span 2; background: url('img/hurdy.jpg') no-repeat;">
-            <a href="zanfona.html">Zanfona</a></div>
-        <div style="grid-column: span 2; background: url('img/zither.jpg') no-repeat;">
-            <a href="zither.html">Cítara</a></div>
-        <div style="grid-row: span 2; background: url('img/violin.jpg') no-repeat;">
-            <a href="violin.html">Violín</a></div>
-        <div style="grid-row: span 2;background: url('img/trumpet.jpg') no-repeat;">
-            <a href="trumpet.html">Trompeta</a></div>
-        <div style="grid-row: span 2; background: url('img/tombourine.jpg') no-repeat;">
-            <a href="tombourine.html">Pandereta</a></div>
-        <div style="grid-row: span 2; background: url('img/saxo.jpg') no-repeat;">
-            <a href="saxo.html">Saxofón</a></div>
-        <div style="grid-column: span 2; background: url('img/piano.jpg') no-repeat;">
-            <a href="piano.html">Piano</a></div>
-        <div style="grid-row: span 2; background: url('img/psaltery.jpg') no-repeat;">
-            <a href="psaltery.html">Salterio</a></div>
-        <div style="grid-column: span 2; background: url('img/oboe.jpg') no-repeat;">
-            <a href="oboe.html">Oboe</a></div>
-        <div style="grid-row: span 2; background: url('img/lute.jpg') no-repeat;">
-            <a href="lute.html">Laúd</a></div>
-        <div style="grid-column: span 2; background: url('img/satie.png') no-repeat;">
-            <a href="satie.html">Satie</a></div>
-        <div style="background: url('img/Rameau.png') no-repeat;">
-            <a href="rameau.html">Rameau</a></div>
-        <div style="grid-row: span 2; background: url('img/purcell.png') no-repeat;">
-            <a href="purcell.html">Purcell</a></div>
-        <div style="grid-row: span 2; background: url('img/Rachmaninov.png') no-repeat;">
-            <a href="rachmaninov.html">Rachmaninov</a></div>
-    </section>
     <footer>
-        <div class="container__footer">
-            <div class="box__footer">
-                <div class="logo">
-                    <h1><img src="img/logo.png" alt="">InstrumentosClásicos</h1>
-                </div>
-                <div class="terms">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In velit fuga, numquam incidunt esse non
-                        voluptatem neque excepturi delectus ut corrupti reiciendis, quibusdam culpa officiis unde fugit.
-                        Aliquam, assumenda! Dolore.</p>
-                </div>
-            </div>
-            <div class="box__footer">
-                <h2>Soluciones</h2>
-                <a href="#">APP</a>
-                <a href="#">APP</a>
-                <a href="#">APP</a>
-                <a href="#">APP</a>
-            </div>
-            <div class="box__footer">
-                <h2>Compañia</h2>
-                <a href="#">Acerca de</a>
-                <a href="#">Trabajos</a>
-                <a href="#">Procesos</a>
-                <a href="#">Servicios</a>
-            </div>
-            <div class="box__footer">
-                <h2>Redes Sociales</h2>
-                <a href="#"><i class="fab fa-facebook-square"></i>Facebook</a>
-                <a href="#"><i class="fab fa-twitter-square"></i>Twitter</a>
-                <a href="#"><i class="fab fa-steam-square"></i>Steam</a>
-                <a href="#"><i class="fab fa-github-square"></i>Github</a>
-            </div>
+        <div class="footer-content">
+            <h3>Instrumentos Clásicos</h3>
+            <p>
+                Este sitio está dedicado a la promoción de la música
+                clásica. Aquí se colectan diferentes informes musicales que
+                se llevaron a cabo y cuenta con un espacio sobre la historia
+                musical.
+            </p>
+            <ul class="socials">
+                <li>
+                    <a href="#"><i class="fa fa-linkedin-square"></i></a>
+                </li>
+                <li>
+                    <a href="#"><i class="fa fa-twitter"></i></a>
+                </li>
+                <li>
+                    <a href="#"><i class="fa fa-github"></i></a>
+                </li>
+                <li>
+                    <a href="#"><i class="fa fa-steam"></i></a>
+                </li>
+            </ul>
         </div>
-        <div class="box__copyright">
-            <hr>
-            <p>Todos los derechos reservados © 2021 <b>MaccDen</b></p>
+        <div class="footer-bottom">
+            <p>
+                copyright &copy;2021 Instrumentos Clásicos. Designed by
+                <span>MaccDen</span>
+            </p>
         </div>
     </footer>
 </body>
