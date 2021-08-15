@@ -2,87 +2,82 @@
 <html lang="en">
 
 <head>
-    <script src="https://kit.fontawesome.com/41bcea2ae3.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="style.css">
-    <meta name="description" content="Aqui encontraras videos relacionados a Q3A." />
-    <meta name="keywords" content="quake, movies, videos, gameplay, veteran, compilations" />
-    <link rel="shortcut icon" href="icon.ico" />
+    <link rel="icon" href="img/icon.ico">
     <meta charset="UTF-8" />
+    <link rel="stylesheet" href="css/aos.css">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <title>InstrumentoClásicos - Inicio</title>
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Fondamento&family=Ubuntu:wght@300&display=swap');
-        @import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap');
-        @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
-    </style>
+    <link rel="stylesheet" href="css/estilo.css" />
+    <script src="/js/fontawesome.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+    <title>Inicio - InstrumentosClasicos</title>
 </head>
 
-<header style="background-color: black;">
-    <nav>
-        <ul>
-            <li class="lilogo"><img src="img/logo.png" alt="Logo" width="35">InstrumentosClásicos</li>
-            <li><a class="select" href="#">INICIO</a></li>
-            <li><a href="compositores.html">COMPOSITORES</a></li>
-            <li><a href="instrumentos.html">INSTRUMENTOS</a></li>
-            <li><a href="about.html">ABOUT</a></li>
-        </ul>
-    </nav>
-    <section class="showcase">
-        <div class="text">
-            <h1>Escuchar es todo.</h1>
-            <p>- Sigue disfrutando de lo que estabas escuchando.</p>
+<body>
+    <script src="js/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script>
+        window.addEventListener("scroll", function () {
+            let header = document.querySelector(".navbar");
+            let windowPosition = window.scrollY > 0;
+            header.classList.toggle("scrolling-active", windowPosition);
+        });
+    </script>
+    <div class="banner">
+        <div
+            class="banner-img"
+            style="background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(img/background.jpg)"
+        ></div>
+        <div
+            class="banner-img"
+            style="background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(img/arcordeonbaile.jpg)"
+        ></div>
+        <div
+            class="banner-img"
+            style="background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(img/mozart4.jpg)"
+        ></div>
+        <div
+            class="banner-img"
+            style="background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(img/beethoven2.jpg)"
+        ></div>
+    </div>
+    <div class="container1">
+        <div data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300" data-aos-offset="0"
+        class="navbar">
+        <img src="img/logo.png" class="logo" />
+        <nav>
+            <ul>
+                    <li class="select"><a href="#">INICIO</a></li>
+                    <li><a href="compositores.html">COMPOSITORES</a></li>
+                    <li><a href="instrumentos.html">INSTRUMENTOS</a></li>
+                </ul>
+            </nav>
         </div>
-        <video muted loop autoplay>
-            <source src="vid/video.mp4" type="video/mp4">
-        </video>
-    </section>
-</header>
-
-<body style="background-color:black">
-    <section style="background-color: rgb(233, 150, 122);" class="wrapper">
-            <h1 style="margin: 0;">¿Quieres escuchar algo?</h1>
-    </section>
-    <footer style="font-family: 'Ubuntu', sans-serif; background-color: rgb(233, 150, 122);">
-        <div class="container__footer">
-            <div class="box__footer">
-                <div class="logo">
-                    <h1><img src="img/logo.png" alt="">InstrumentosClásicos</h1>
+        <div class="row">
+            <div data-aos="fade-right" class="col" id="col">
+                <div class="title">
+                    <h1>Instrumentos Clásicos</h1>
+                    <h2>Historia, Biografías, Conocimiento.</h2>
                 </div>
-                <div class="terms">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In velit fuga, numquam incidunt esse non
-                        voluptatem neque excepturi delectus ut corrupti reiciendis, quibusdam culpa officiis unde fugit.
-                        Aliquam, assumenda! Dolore.</p>
-                </div>
-            </div>
-            <div class="box__footer">
-                <h2>Soluciones</h2>
-                <a href="#">APP</a>
-                <a href="#">APP</a>
-                <a href="#">APP</a>
-                <a href="#">APP</a>
-            </div>
-            <div class="box__footer">
-                <h2>Compañia</h2>
-                <a href="#">Acerca de</a>
-                <a href="#">Trabajos</a>
-                <a href="#">Procesos</a>
-                <a href="#">Servicios</a>
-            </div>
-            <div class="box__footer">
-                <h2>Redes Sociales</h2>
-                <a href="#"><i class="fab fa-facebook-square"></i>Facebook</a>
-                <a href="#"><i class="fab fa-twitter-square"></i>Twitter</a>
-                <a href="#"><i class="fab fa-steam-square"></i>Steam</a>
-                <a href="#"><i class="fab fa-github-square"></i>Github</a>
+                <p>
+                    La música nos acompaña cada día de nuestras vidas. Es
+                    difícil imaginar un mundo sin la presencia de ella.
+                    <br /><br />
+                    En Instrumentos Clásicos, explicamos la historia de la
+                    música, que instrumentos musicales existen, incluyendo
+                    biografias de autores y compositores.
+                </p>
             </div>
         </div>
-        <div class="box__copyright">
-            <hr>
-            <p>Todos los derechos reservados © 2021 <b>MaccDen</b></p>
-        </div>
-    </footer>
+    </div>
+    <div class="footer-bottom2">
+        <p>
+            copyright &copy;2021 Instrumentos Clásicos. Designed by
+            <span>MaccDen</span>
+        </p>
+    </div>
 </body>
 
 </html>
