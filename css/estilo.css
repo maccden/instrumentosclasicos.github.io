@@ -1,4 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Marcellus+SC&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap');
 
 html {
     scroll-behavior: smooth;
@@ -191,6 +195,13 @@ body {
     position: relative;
 }
 
+.container5 {
+    background-size: cover;
+    border-style: border-box;
+    background-attachment: fixed;
+    position: relative;
+}
+
 .box {
     z-index: 100;
     position: absolute;
@@ -273,6 +284,7 @@ body {
 }
 
 .biografia h2 {
+    font-family: "Source Sans Pro", sans-serif;
     color: #fff;
     font-size: 2vw;
     line-height: 7vh;
@@ -316,6 +328,162 @@ body {
     color: rgb(167, 167, 167);
 }
 
+.historia {
+    background: #332418;
+}
+
+.historia h2,
+.historia ul {
+    left: calc(19.33333% + 1.66667vh);
+    width: calc(62.66667% - 1.66667vw);
+    position: relative;
+}
+
+.historia p {
+    font-family: "Cormorant Garamond", serif;
+    position: relative;
+    left: calc(19.33333% + 1.66667vh);
+    width: calc(62.66667% - 1.66667vw);
+    color: rgb(207, 207, 207);
+    font-size: 1.5vw;
+    line-height: 3vh;
+    margin-top: 2vh;
+    text-align: justify;
+    font-weight: 900;
+}
+
+.historia ul li {
+    margin-top: 2vh;
+    margin-right: 5rem;
+    color: rgb(185, 185, 185);
+    font-size: 1.3vw;
+    line-height: 3.7vh;
+    font-weight: 400;
+    letter-spacing: 0;
+}
+
+.historia h2 {
+    color: #fff;
+    font-size: 4vw;
+    line-height: 9vh;
+    letter-spacing: 0;
+    font-family: "Lobster Two", cursive;
+    font-weight: 100;
+}
+
+.historia .media {
+    width: calc(100% - 7vw);
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    margin-right: 4vw;
+}
+
+.historia .media a img {
+    border-radius: 1vh;
+    position: relative;
+    left: auto;
+    right: calc(-76vw - -50%);
+}
+
+.historia .media .descripcion {
+    font-size: 1.3vw;
+    line-height: 3.5vh;
+    width: calc(25% - 4vw);
+    color: #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: none;
+    font-weight: 400;
+    letter-spacing: 0;
+    border-bottom: 1px solid #d9c9ca;
+    padding-bottom: 1.5vh;
+}
+
+.historia .media .autor {
+    color: rgb(167, 167, 167);
+}
+
+.historia1 {
+    background: #e4d3a3;
+}
+
+.historia1 p {
+    margin: 0 2em 0 2em;
+    font-family: "Cormorant Garamond", serif;
+    position: relative;
+    color: #353c4d;
+    font-size: 1.5vw;
+    line-height: 3vh;
+    text-align: justify;
+    font-weight: 900;
+}
+
+.historia1 ul li {
+    margin-top: 2vh;
+    margin-right: 5rem;
+    color: rgb(185, 185, 185);
+    font-size: 1.3vw;
+    line-height: 3.7vh;
+    font-weight: 400;
+    letter-spacing: 0;
+}
+
+.historia1 h2 {
+    margin: 0 0.8em 2vh 0.8em;
+    color: #353c4d;
+    font-size: 4vw;
+    line-height: 9vh;
+    letter-spacing: 0;
+    font-family: "Lobster Two", cursive;
+    font-weight: 100;
+}
+
+.historia1 .media {
+    width: calc(100% - 7vw);
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    margin-right: 4vw;
+}
+
+.historia1 .media a img {
+    border-radius: 1vh;
+    position: relative;
+    left: auto;
+    right: calc(-76vw - -50%);
+}
+
+.historia1 .media .descripcion {
+    font-size: 1.3vw;
+    line-height: 3.5vh;
+    width: calc(25% - 4vw);
+    color: #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: none;
+    font-weight: 400;
+    letter-spacing: 0;
+    border-bottom: 1px solid #d9c9ca;
+    padding-bottom: 1.5vh;
+}
+
+.historia1 .media .autor {
+    color: rgb(167, 167, 167);
+}
+
+section {
+    column-count: 2;
+    column-gap: 0.1px;
+    column-rule: 1px solid rgb(75, 70, 74);
+}
+
 .navbar {
     z-index: 1000;
     width: 100%;
@@ -331,7 +499,7 @@ body {
 }
 
 .logo {
-    padding-left: 5vw;
+    padding-left: 2.5vw;
     width: 3.3vw;
     cursor: pointer;
 }
@@ -369,8 +537,8 @@ nav ul li a:hover {
 ul .select {
     opacity: 1;
     text-decoration: none;
-    background-color: rgb(40, 122, 57);
     border-radius: 7vh;
+    border: solid 1px white;
     padding: 0.7vw;
 }
 
@@ -440,7 +608,43 @@ ul .select {
 .title3 h1 {
     color: #fff;
     font-size: 5.4vw;
+    margin-bottom: 2vh;
+    font-family: "Source Sans Pro", sans-serif;
+}
+
+.row1 {
+    height: 98%;
+    padding-top: 17%;
+}
+
+.row1 h1 {
+    padding-left: 8%;
+    color: #fff;
+    font-size: 9.8vw;
     margin-bottom: 1vh;
+    font-family: "Caudex", serif;
+    font-weight: 100;
+}
+
+.row1 img {
+    position: relative;
+    z-index: 100;
+    border-radius: 1.8vh;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 15px 30px 60px -10px rgba(0, 0, 0, 0.5);
+}
+
+.row1 p {
+    font-family: "Source Sans Pro", sans-serif;
+    margin-bottom: 10vh;
+    font-size: 2vw;
+    padding-left: 8%;
+    color: #fff;
+    font-weight: 600;
 }
 
 h2 {
@@ -535,19 +739,101 @@ p {
     fill: rgb(21, 21, 21);
 }
 
+.svg3 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.svg3 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 32vh;
+    transform: rotateY(180deg);
+}
+
+.svg3 .shape-fill {
+    fill: #332418;
+}
+
+.svg4 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.svg4 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 32vh;
+    transform: rotateY(180deg);
+}
+
+.svg4 .shape-fill {
+    fill: #332418;
+}
+
+.svg5 {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotateY(180deg);
+}
+
+.svg5 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 22vh;
+    transform: rotateY(180deg);
+}
+
+.svg5 .shape-fill {
+    fill: #332418;
+}
+
+.svg6 {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotateY(180deg);
+}
+
+.svg6 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 22vh;
+    transform: rotateY(180deg);
+}
+
+.svg6 .shape-fill {
+    fill: #e4d3a3;
+}
+
 footer {
     z-index: 1000;
     position: absolute;
     right: 0;
     background: #111;
-    height: auto;
     width: 100vw;
-    font-family: "Open Sans";
-    padding-top: 4vh;
     color: #fff;
+    font-family: "Open Sans";
 }
 
 .footer-content {
+    padding-top: 4vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -563,6 +849,45 @@ footer {
 }
 
 .footer-content p {
+    color: #adadad;
+    max-width: 40vw;
+    margin: 1vw auto;
+    line-height: 3vh;
+    font-size: 1.2vw;
+}
+
+.footer1 {
+    z-index: 1000;
+    position: absolute;
+    right: 0;
+    width: 100vw;
+    color: #fff;
+    font-family: "Open Sans";
+    background: #332418;
+}
+
+.footer-content1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer-content1 h3 {
+    font-size: 1.8vw;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 5vh;
+}
+
+.footer-content1 h3 img {
+    position: relative;
+    top: 1vh;
+    right: 1vh;
+}
+
+.footer-content1 p {
     color: #adadad;
     max-width: 40vw;
     margin: 1vw auto;
@@ -597,7 +922,7 @@ footer {
 }
 
 .footer-bottom {
-    background: #000;
+    background: rgba(0, 0, 0, 0.3);
     padding: 2vh 0;
     text-align: center;
 }
